@@ -154,9 +154,9 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="24dp"
         android:layout_marginTop="75dp"
-        android:background="null"
         android:scaleType="centerCrop"
-        app:srcCompat="@drawable/home" />
+        app:srcCompat="@drawable/home"
+        />
 
     <ImageButton
         android:id="@+id/imageButton2"
