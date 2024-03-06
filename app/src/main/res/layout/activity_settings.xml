@@ -164,8 +164,8 @@
         android:layout_height="65dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="23dp"
-        android:layout_marginTop="159dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="153dp"
         android:background="@null"
         android:scaleType="centerCrop"
         app:srcCompat="@drawable/dumbell" />
