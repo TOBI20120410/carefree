@@ -8,53 +8,23 @@
     android:background="#741919"
     tools:context=".Login">
 
-    <TextView
-        android:id="@+id/register1"
-        android:layout_width="73dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="226dp"
-        android:layout_marginTop="542dp"
-        android:layout_marginEnd="111dp"
-        android:fontFamily="@font/kfr"
-        android:text="Click Here"
-        android:textColor="#AD1B1B"
-        android:textSize="25dp" />
-
-    <TextView
-        android:id="@+id/create"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="123dp"
-        android:layout_marginTop="544dp"
-        android:layout_marginEnd="150dp"
-        android:fontFamily="@font/kfr"
-        android:text="Create an account?"
-        android:textColor="@color/white"
-        android:textSize="20dp" />
-
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="211dp"
-        android:layout_height="186dp"
+        android:layout_width="173dp"
+        android:layout_height="133dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="100dp"
-        android:layout_marginTop="63dp"
-        android:layout_marginEnd="100dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="115dp"
+        android:layout_marginEnd="130dp"
         android:scaleType="centerCrop"
         app:srcCompat="@drawable/bg"
         tools:layout_editor_absoluteX="103dp"
         tools:layout_editor_absoluteY="101dp" />
 
     <EditText
-        android:id="@+id/password"
+        android:id="@+id/editTextTextPassword2"
         android:layout_width="295dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
@@ -64,7 +34,6 @@
         android:layout_marginTop="336dp"
         android:layout_marginEnd="60dp"
         android:background="@drawable/rounded"
-        android:fontFamily="@font/kfr"
         android:hint="Password"
         android:inputType="textPassword"
         android:padding="18dp"
@@ -72,7 +41,7 @@
         android:textSize="20sp" />
 
     <EditText
-        android:id="@+id/email"
+        android:id="@+id/editTextTextEmailAddress2"
         android:layout_width="295dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
@@ -82,46 +51,28 @@
         android:layout_marginTop="266dp"
         android:layout_marginEnd="60dp"
         android:background="@drawable/rounded"
-        android:fontFamily="@font/kfr"
-        android:hint="Email"
+        android:hint="Username"
+        android:textColorHint="#C3BBBB"
         android:inputType="textEmailAddress"
         android:padding="18dp"
-        android:textColorHint="#C3BBBB"
         android:textSize="20sp" />
 
     <Button
-        android:id="@+id/login"
-        android:layout_width="300dp"
+        android:id="@+id/button"
+        android:layout_width="298dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_marginStart="60dp"
-        android:layout_marginTop="465dp"
+        android:layout_marginTop="432dp"
         android:layout_marginEnd="60dp"
         android:backgroundTint="#AD1B1B"
         android:fontFamily="@font/kfr"
         android:padding="10dp"
         android:text="Login"
         android:textAlignment="center"
-        android:textSize="35dp" />
-
-    <CheckBox
-        android:id="@+id/rememberme"
-        android:layout_width="131dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="60dp"
-        android:layout_marginTop="408dp"
-        android:layout_marginEnd="220dp"
-        android:backgroundTint="#FFFFFF"
-        android:fontFamily="@font/kfr"
-        android:text="Remember Me"
-        android:buttonTint="@color/white"
-        android:textColor="@color/white"
-        android:textSize="20sp" />
+        android:textSize="29dp" />
 
 
 </RelativeLayout>

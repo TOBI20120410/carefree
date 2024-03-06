@@ -17,9 +17,6 @@
             android:name=".Report"
             android:exported="false" />
         <activity
-            android:name=".Homepage"
-            android:exported="false" />
-        <activity
             android:name=".MetricAndImperialUnits"
             android:exported="false" />
         <activity
@@ -29,9 +26,6 @@
             android:exported="false" />
         <activity
             android:name=".Settings"
-            android:exported="false" />
-        <activity
-            android:name=".Register"
             android:exported="false" />
         <activity
             android:name=".profile_setting"
