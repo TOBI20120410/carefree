@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#741919"
+
+
+    tools:context=".Settings">
+
+
+    <EditText
+        android:id="@+id/Workoutr"
+        android:layout_width="164dp"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="168dp"
+        android:layout_marginEnd="126dp"
+        android:background="@null"
+        android:ems="10"
+        android:fontFamily="@font/kfr"
+
+        android:inputType="text"
+        android:text="Workout Settings"
+        android:textColor="@color/white"
+        android:textSize="28dp" />
+
+    <EditText
+        android:id="@+id/WorkoutP"
+        android:layout_width="164dp"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="123dp"
+        android:layout_marginTop="262dp"
+        android:layout_marginEnd="123dp"
+        android:background="@null"
+        android:ems="10"
+        android:fontFamily="@font/kfr"
+
+        android:inputType="text"
+        android:text="Profile Settings"
+        android:textColor="@color/white"
+        android:textSize="28dp" />
+
+    <EditText
+        android:id="@+id/WorkouM"
+        android:layout_width="208dp"
+        android:layout_height="53dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="122dp"
+        android:layout_marginTop="349dp"
+        android:layout_marginEnd="81dp"
+        android:background="@null"
+        android:ems="10"
+        android:fontFamily="@font/kfr"
+
+        android:inputType="text"
+        android:text="Metric and Imperial Units"
+        android:textColor="@color/white"
+        android:textSize="28dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="137dp"
+        android:layout_marginEnd="-1dp"
+        android:scaleType="centerCrop"
+
+        app:srcCompat="@android:drawable/screen_background_light" />
+
+    <ImageView
+        android:id="@+id/imageVieew3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="330dp"
+        android:layout_marginEnd="1dp"
+        android:scaleType="centerCrop"
+
+        app:srcCompat="@android:drawable/screen_background_light" />
+
+    <ImageView
+        android:id="@+id/imageViee342"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="423dp"
+        android:layout_marginEnd="2dp"
+        android:scaleType="centerCrop"
+
+        app:srcCompat="@android:drawable/screen_background_light" />
+
+    <ImageView
+        android:id="@+id/imageVi33"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="238dp"
+        android:layout_marginEnd="0dp"
+        android:scaleType="centerCrop"
+
+        app:srcCompat="@android:drawable/screen_background_light" />
+
+    <EditText
+        android:id="@+id/settingss"
+        android:layout_width="wrap_content"
+        android:layout_height="73dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="119dp"
+        android:layout_marginTop="63dp"
+        android:layout_marginEnd="129dp"
+        android:background="@null"
+        android:ems="10"
+        android:fontFamily="@font/kfr"
+        android:inputType="text"
+        android:text="Settings"
+
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="40dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="46dp"
+        android:layout_height="42dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="75dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/home"
+        />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="75dp"
+        android:layout_height="65dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="159dp"
+        android:background="@null"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/dumbell" />
+
+    <ImageButton
+        android:id="@+id/imageButon2"
+        android:layout_width="75dp"
+        android:layout_height="65dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="255dp"
+        android:background="@null"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/dumbell" />
+
+    <ImageButton
+        android:id="@+id/imageButon234"
+        android:layout_width="75dp"
+        android:layout_height="65dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="344dp"
+        android:background="@null"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/dumbell" />
+
+</RelativeLayout>

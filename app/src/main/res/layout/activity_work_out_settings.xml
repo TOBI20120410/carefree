@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#741919"
+
+    tools:context=".WorkOutSettings">
+
+    <EditText
+        android:id="@+id/Gender"
+        android:layout_width="79dp"
+        android:layout_height="66dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="87dp"
+        android:layout_marginTop="153dp"
+        android:layout_marginEnd="245dp"
+        android:background="@null"
+        android:ems="10"
+        android:fontFamily="@font/kfr"
+
+        android:inputType="text"
+        android:text="Gender"
+        android:textColor="@color/white"
+        android:textSize="28dp" />
+
+    <EditText
+        android:id="@+id/Training"
+        android:layout_width="171dp"
+        android:layout_height="66dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="231dp"
+        android:layout_marginEnd="152dp"
+        android:background="@null"
+        android:ems="10"
+        android:fontFamily="@font/kfr"
+
+        android:inputType="text"
+        android:text="Training Rest"
+        android:textColor="@color/white"
+        android:textSize="28dp" />
+
+    <EditText
+        android:id="@+id/cLOCK"
+        android:layout_width="171dp"
+        android:layout_height="66dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="87dp"
+        android:layout_marginTop="312dp"
+        android:layout_marginEnd="153dp"
+        android:background="@null"
+        android:ems="10"
+        android:fontFamily="@font/kfr"
+
+        android:inputType="text"
+        android:text="Countdown Time"
+        android:textColor="@color/white"
+        android:textSize="28dp" />
+
+    <ImageView
+        android:id="@+id/imageView345"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="224dp"
+
+        android:layout_marginEnd="1dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@android:drawable/screen_background_light" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="146dp"
+        android:layout_marginEnd="0dp"
+        android:scaleType="centerCrop"
+
+        app:srcCompat="@android:drawable/screen_background_light" />
+
+    <ImageView
+        android:id="@+id/imageViewr323"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="303dp"
+        android:layout_marginEnd="0dp"
+        android:scaleType="centerCrop"
+
+        app:srcCompat="@android:drawable/screen_background_light" />
+
+    <ImageView
+        android:id="@+id/imageView344"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="381dp"
+        android:layout_marginEnd="0dp"
+        android:scaleType="centerCrop"
+
+        app:srcCompat="@android:drawable/screen_background_light" />
+
+    <EditText
+        android:id="@+id/Worksettting"
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="61dp"
+        android:layout_marginEnd="123dp"
+        android:background="@null"
+        android:ems="10"
+        android:fontFamily="@font/kfr"
+        android:inputType="text"
+        android:text="Workout Settings"
+
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="40dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="32dp"
+        android:layout_height="36dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="79dp"
+
+        android:layout_marginEnd="352dp"
+        android:layout_marginBottom="616dp"
+        android:background="@null"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/back" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="13dp"
+
+        android:layout_marginTop="157dp"
+        android:background="@null"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/gender" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="65dp"
+        android:layout_height="62dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="233dp"
+        android:background="@null"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/dd" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="54dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginBottom="362dp"
+        android:background="@null"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/clock" />
+</RelativeLayout>
