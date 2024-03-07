@@ -9,4 +9,77 @@
 
     android:background="#741919"
 
-    tools:context=".Report"/>
+    tools:context=".Report">
+
+    <EditText
+        android:id="@+id/Report"
+        android:layout_width="wrap_content"
+        android:layout_height="72dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="119dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="129dp"
+        android:background="@null"
+        android:ems="10"
+        android:fontFamily="@font/kfr"
+        android:inputType="text"
+        android:text="Report"
+
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="45dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="45dp"
+        android:layout_height="34dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="78dp"
+        android:background="false"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/home" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="695dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-109dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/blavk" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="match_parent"
+        android:layout_height="155dp"
+        android:layout_alignParentBottom="true"
+
+        android:layout_marginBottom="63dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/w1" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="match_parent"
+        android:layout_height="157dp"
+        android:layout_alignParentBottom="true"
+
+        android:layout_marginBottom="225dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/history" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="match_parent"
+        android:layout_height="165dp"
+        android:layout_alignParentTop="true"
+
+        android:layout_marginTop="170dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/count" />
+
+</RelativeLayout>
