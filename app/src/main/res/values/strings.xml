@@ -3,4 +3,5 @@
 
     <string name="app_name">My Application</string>
     <string name="title_activity_login">Login</string>
+    <string name="txtTerms">I agree to the <b><font color="#000000">Terms of Service</font></b> and <b><font color="#000000">Privacy Policy</font></b>.</string>
 </resources>
