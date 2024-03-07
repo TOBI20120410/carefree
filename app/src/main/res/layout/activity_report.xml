@@ -39,7 +39,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="24dp"
         android:layout_marginTop="78dp"
-        android:background="false"
+        android:background="@color/material_on_background_disabled"
         android:scaleType="centerCrop"
         app:srcCompat="@drawable/home" />
 
