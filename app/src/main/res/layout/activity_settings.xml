@@ -147,7 +147,7 @@
         android:textSize="45dp" />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/btnHome"
         android:layout_width="45dp"
         android:layout_height="34dp"
         android:layout_alignParentStart="true"
@@ -156,10 +156,10 @@
         android:layout_marginTop="78dp"
         android:background="@color/material_on_background_disabled"
         android:scaleType="centerCrop"
-        app:srcCompat="@drawable/home" />
+        app:srcCompat="@drawable/bahay" />
 
     <ImageButton
-        android:id="@+id/imageButton2"
+        android:id="@+id/btnWS"
         android:layout_width="75dp"
         android:layout_height="65dp"
         android:layout_alignParentStart="true"
@@ -171,7 +171,7 @@
         app:srcCompat="@drawable/dumbell"/>
 
     <ImageButton
-        android:id="@+id/imageButon2"
+        android:id="@+id/btnPS"
         android:layout_width="75dp"
         android:layout_height="65dp"
         android:layout_alignParentStart="true"
@@ -183,7 +183,7 @@
         app:srcCompat="@drawable/dumbell" />
 
     <ImageButton
-        android:id="@+id/imageButon234"
+        android:id="@+id/btnMI"
         android:layout_width="75dp"
         android:layout_height="65dp"
         android:layout_alignParentStart="true"

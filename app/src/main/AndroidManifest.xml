@@ -13,13 +13,16 @@
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
         <activity
+            android:name=".registerUpdated"
+            android:exported="false" />
+        <activity
             android:name=".Recent"
             android:exported="false" />
         <activity
             android:name=".Homepage"
             android:exported="false" />
         <activity
-            android:name=".Report"
+            android:name=".History"
             android:exported="false" />
         <activity
             android:name=".MetricAndImperialUnits"

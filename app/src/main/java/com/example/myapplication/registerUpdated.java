@@ -1,6 +1,5 @@
 package com.example.myapplication;
 
-import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.graphics.Paint;
 import android.os.Bundle;
@@ -21,19 +20,15 @@ import androidx.core.view.WindowInsetsCompat;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
-public class Login extends AppCompatActivity {
+public class registerUpdated extends AppCompatActivity {
     TextView textview;
-    EditText etEmail, etPassword;
-    Button btnLogin;
-    Button btn;
-
-    CheckBox rememberMe;
+    EditText etEmail, etPass;
     FirebaseAuth mAuth;
+    Button btnRegister;
 
     @Override
     public void onStart() {
         super.onStart();
-        // Check if user is signed in (non-null) and update UI accordingly.
         FirebaseUser currentUser = mAuth.getCurrentUser();
         if(currentUser != null){
             Intent intent = new Intent(getApplicationContext(), Homepage.class);
@@ -41,69 +36,65 @@ public class Login extends AppCompatActivity {
             finish();
         }
     }
-
-    @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_login);
+        setContentView(R.layout.activity_register);
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
+
         });
 
         mAuth = FirebaseAuth.getInstance();
         etEmail = findViewById(R.id.email);
-        etPassword = findViewById(R.id.password);
-        rememberMe = findViewById(R.id.rememberme);
+        etPass = findViewById(R.id.password);
+        btnRegister = findViewById(R.id.register);
+        CheckBox cbAgree = findViewById(R.id.checkBoxAgree);
 
-        btnLogin = findViewById(R.id.login);
-        btnLogin.setOnClickListener(view -> {
-            String email, password;
+        btnRegister.setOnClickListener(view -> {
+            String username, email, password;
             email = String.valueOf(etEmail.getText());
-            password = String.valueOf(etPassword.getText());
+            password = String.valueOf(etPass.getText());
+
+            StringBuilder errorMessage = new StringBuilder();
 
             if (TextUtils.isEmpty(email)) {
-                Toast.makeText(Login.this, "Enter email", Toast.LENGTH_SHORT).show();
-                return;
-            }
-            if (TextUtils.isEmpty(email)) {
-                Toast.makeText(Login.this, "Enter password", Toast.LENGTH_SHORT).show();
-                return;
+                errorMessage.append("Enter Email\n");
             }
 
-            if (rememberMe.isChecked()) {
-                FirebaseUser currentUser = mAuth.getCurrentUser();
-                if (currentUser != null) {
-                    startActivity(new Intent(Login.this, Homepage.class));
-                }
+            if (TextUtils.isEmpty(password)) {
+                errorMessage.append("Enter Password\n");
             }
 
-            mAuth.signInWithEmailAndPassword(email, password)
+            if (!cbAgree.isChecked()) {
+                errorMessage.append("Agree to Terms & Conditions");
+
+            }
+
+            mAuth.createUserWithEmailAndPassword(email, password)
                     .addOnCompleteListener(task -> {
                         if (task.isSuccessful()) {
-                            Toast.makeText(Login.this, "Successfully Logged-in.",
+                            Toast.makeText(registerUpdated.this, "Account Created",
                                     Toast.LENGTH_SHORT).show();
-                            Intent intent = new Intent(Login.this, Homepage.class);
-                            startActivity(intent);
+
+                            startActivity(new Intent(registerUpdated.this, Login.class));
                         } else {
-                            Toast.makeText(Login.this, "Authentication failed.",
+                            Toast.makeText(registerUpdated.this, "Account creation failed",
                                     Toast.LENGTH_SHORT).show();
                         }
                     });
-
         });
-        textview = (TextView)findViewById(R.id.register);
+        textview = (TextView) findViewById(R.id.login);
         textview.setPaintFlags(textview.getPaintFlags() | Paint.UNDERLINE_TEXT_FLAG);
         textview.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Login.this, registerUpdated.class);
+                Intent intent = new Intent(registerUpdated.this, Login.class);
                 startActivity(intent);
             }
         });
-
     }
 }

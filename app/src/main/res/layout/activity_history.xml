@@ -9,7 +9,7 @@
 
     android:background="#741919"
 
-    tools:context=".Report">
+    tools:context=".History">
 
     <EditText
         android:id="@+id/Report"
@@ -31,7 +31,7 @@
         android:textSize="45dp" />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/btnHome"
         android:layout_width="45dp"
         android:layout_height="34dp"
         android:layout_alignParentStart="true"
@@ -40,7 +40,7 @@
         android:layout_marginTop="78dp"
         android:background="@color/material_on_background_disabled"
         android:scaleType="centerCrop"
-        app:srcCompat="@drawable/home" />
+        app:srcCompat="@drawable/bahay" />
 
     <ImageView
         android:id="@+id/imageView4"

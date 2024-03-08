@@ -12,7 +12,7 @@
     tools:context=".profile_setting">
 
     <ImageButton
-        android:id="@+id/imageButton3"
+        android:id="@+id/btnPSback"
         android:layout_width="32dp"
         android:layout_height="36dp"
         android:layout_alignParentStart="true"
@@ -323,12 +323,12 @@
 
         app:srcCompat="@drawable/userrr" />
 
-    <ImageView
-        android:id="@+id/imageView9"
+    <ImageButton
+        android:id="@+id/btnLogout"
         android:layout_width="150dp"
         android:layout_height="73dp"
         android:layout_alignParentEnd="true"
-
+        android:background="@color/white"
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="124dp"
         android:layout_marginBottom="20dp"
