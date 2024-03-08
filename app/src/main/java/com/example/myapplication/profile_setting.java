@@ -49,5 +49,14 @@ public class profile_setting extends AppCompatActivity {
             startActivity(i);
             finish();
         }
+        btnLogout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                FirebaseAuth.getInstance().signOut();
+                Intent i = new Intent(getApplicationContext(), Login.class);
+                startActivity(i);
+                finish();
+            }
+        });
     }
 }

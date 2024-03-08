@@ -148,12 +148,12 @@
 
     <ImageButton
         android:id="@+id/btnHome"
-        android:layout_width="45dp"
-        android:layout_height="34dp"
+        android:layout_width="75dp"
+        android:layout_height="76dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginStart="24dp"
-        android:layout_marginTop="78dp"
+        android:layout_marginTop="50dp"
         android:background="@color/material_on_background_disabled"
         android:scaleType="centerCrop"
         app:srcCompat="@drawable/bahay" />

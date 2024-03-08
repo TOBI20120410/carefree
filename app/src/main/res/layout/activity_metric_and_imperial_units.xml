@@ -112,17 +112,13 @@
 
     <ImageButton
         android:id="@+id/btnMIback"
-        android:layout_width="32dp"
-        android:layout_height="36dp"
+        android:layout_width="46dp"
+        android:layout_height="43dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
         android:layout_marginStart="27dp"
         android:layout_marginTop="79dp"
 
-        android:layout_marginEnd="352dp"
-        android:layout_marginBottom="616dp"
         android:background="@null"
         android:scaleType="centerCrop"
         app:srcCompat="@drawable/back" />
@@ -133,8 +129,10 @@
         android:layout_height="47dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
         android:layout_marginStart="28dp"
         android:layout_marginTop="165dp"
+        android:layout_marginEnd="341dp"
         android:background="@null"
         android:scaleType="centerCrop"
         app:srcCompat="@drawable/weight" />
@@ -145,8 +143,10 @@
         android:layout_height="62dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
         android:layout_marginStart="22dp"
         android:layout_marginTop="233dp"
+        android:layout_marginEnd="334dp"
         android:background="@null"
         android:scaleType="centerCrop"
         app:srcCompat="@drawable/height" />

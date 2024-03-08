@@ -37,7 +37,7 @@ ImageButton btnHome, btnWS, btnPS, btnMI;
         btnWS.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Settings.this, WorkOutSettings.class);
+                Intent intent = new Intent(Settings.this, Workout_Settings.class);
                 startActivity(intent);
             }
         });

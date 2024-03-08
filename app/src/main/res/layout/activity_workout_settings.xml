@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
     android:background="#741919"
-
-    tools:context=".WorkOutSettings">
+    tools:context=".Workout_Settings">
 
     <EditText
         android:id="@+id/Gender"
@@ -146,17 +143,15 @@
 
     <ImageButton
         android:id="@+id/btnWSback"
-        android:layout_width="56dp"
-        android:layout_height="35dp"
+        android:layout_width="54dp"
+        android:layout_height="36dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="43dp"
-        android:layout_marginTop="79dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="76dp"
 
-        android:layout_marginEnd="312dp"
-        android:layout_marginBottom="617dp"
+        android:layout_marginEnd="317dp"
         android:background="@null"
         android:scaleType="centerCrop"
         app:srcCompat="@drawable/back" />
@@ -167,8 +162,8 @@
         android:layout_height="64dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="13dp"
 
+        android:layout_marginStart="13dp"
         android:layout_marginTop="157dp"
         android:background="@null"
         android:scaleType="centerCrop"
@@ -191,10 +186,11 @@
         android:layout_width="54dp"
         android:layout_height="50dp"
         android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
         android:layout_marginStart="21dp"
-        android:layout_marginBottom="362dp"
+        android:layout_marginTop="320dp"
         android:background="@null"
         android:scaleType="centerCrop"
         app:srcCompat="@drawable/clock" />
+
 </RelativeLayout>
